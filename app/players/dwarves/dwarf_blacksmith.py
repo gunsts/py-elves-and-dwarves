@@ -12,8 +12,8 @@ class DwarfBlacksmith(Dwarf):
         super().__init__(nickname, favourite_dish)
 
     def player_info(self) -> None:
-        print(f"Dwarf blacksmith {self.nickname} with skill \
-of the {self._skill_level} level")
+        return f"Dwarf blacksmith {self.nickname} with skill \
+of the {self._skill_level} level"
 
     def get_rating(self) -> None:
         return self._skill_level
